@@ -1,0 +1,353 @@
+/*burgur icon*/
+
+.header-main-menu ul li a:hover + .dropmenu, .dropmenu:hover {
+    display: block;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu {
+    display: block;
+}
+
+.show-menu {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header-main-menu ul li a:hover + .dropmenu, .dropmenu:hover {
+        width: 100%;
+    }
+
+    .header-main-menu ul {
+        position: static;
+        display: none;
+    }
+
+    .header-main-menu > ul {
+        background-color: black;
+    }
+
+    .header-main-menu ul li {
+        margin-bottom: 1px;
+    }
+
+    .header-main-menu ul li.active {
+        border-bottom: none;
+    }
+
+    .header-main-menu ul li, .header-main-menu ul li a {
+        width: 100%;
+    }
+
+    .show-menu {
+        padding: 14px;
+        display: inline-block;
+        font-size: 35px;
+    }
+
+    .dropmenu {
+        margin-left: -14px;
+    }
+
+    /*burgur icon end*/
+    .header-right {
+        display: none;
+    }
+
+    .on-small-screen {
+        display: inline-block;
+    }
+
+    .content-wrapper {
+        width: 98%;
+    }
+
+    .bottom-footer {
+        display: none;
+    }
+
+    .top-media-bar {
+        display: none;
+    }
+
+    .right-main-header {
+        float: left;
+        position: absolute;
+        width: auto;
+    }
+
+    .left-header {
+        display: none;
+    }
+
+    .body-menu-wrapper .content-wrapper div:first-child {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    .body-menu-wrapper .content-wrapper ul {
+        text-align: center;
+        float: none;
+    }
+
+    .body-menu-wrapper .content-wrapper {
+        text-align: center;
+    }
+
+    .body-menu-wrapper .content-wrapper ul li {
+        margin: 0 11.734px;
+    }
+
+    .subscribe-wrapper form input {
+        padding: 0px 11px;
+        width: 85.66666667%;
+    }
+
+    .search-box {
+        padding: 0px;
+        width: 78%;
+    }
+
+    .search-box form input {
+        width: 100%;
+        line-height: 34px;
+        width: 83.66666667%;
+    }
+
+    .not-on-tab {
+        display: none;
+    }
+
+    .tabs li {
+        width: 48.25925926%;
+    }
+
+    .opacity-div .content-wrapper div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .subscribe .content-wrapper form {
+        padding-top: 0;
+    }
+
+    .footer-left-wrapper, .footer-right-wrapper {
+        width: 48%;
+    }
+
+    .footer-content {
+        width: 43.99%;
+    }
+
+    .footer-left-wrapper div:first-child {
+        display: none;
+    }
+
+    .footer-right-wrapper div:first-child {
+        display: none;
+    }
+
+    /*.footer-form input:last-child {*/
+    /*width: 97%;*/
+    /*}*/
+    .banner-container {
+        overflow: hidden;
+    }
+
+    .post-right .clrfix .right {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .three {
+        width: 100%;
+    }
+
+    .two-content-body > div {
+         margin-left: 0px;
+    }
+
+    .two-content-body .clrfix .content {
+        width: 100%;
+    }
+
+    .two-content-body > div > div{
+        margin-left: 0px;
+    }
+
+    .medium, .large {
+        height: 300px;
+    }
+
+    .header-main-menu ul li {
+        margin-left: 0px;
+    }
+
+    .footer-form input, .footer-form textarea {
+        width: 100%;
+    }
+
+    .three-content-body > div, .three {
+        margin-left: 0px;
+    }
+
+    .three-content-body {
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .not-phone {
+        display: none;
+    }
+
+    .on-phone {
+        display: inline-block;
+    }
+
+    .title-box h1 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .title-box button {
+        margin-top: 20px;
+        padding: 5px 15px;
+        font-size: 11px;
+    }
+
+    .slider-div {
+        /*height: auto;*/
+    }
+
+    .sort select {
+        padding: 17px 5px;
+        border-radius: 5px;
+    }
+
+    .main-body-content {
+        width: 100%;
+    }
+
+    .right-body-content {
+        display: none;
+    }
+
+    .small {
+        height: 420px;
+        width: 100%;
+    }
+
+    .small-description {
+        width: 100%;
+    }
+
+    .left-three-main-content {
+        width: 100%;
+    }
+
+    .medium {
+        height: 300px;
+    }
+
+    .three-right-content {
+        width: 100%;
+    }
+
+    .more {
+        text-align: center;
+    }
+
+    .subscribe .opacity-div {
+        padding: 30px 0;
+    }
+
+    .subscribe .content-wrapper h1 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .subscribe .content-wrapper form input:first-child {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .subscribe-form input:last-child {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .footer-left-wrapper, .footer-right-wrapper {
+        width: 100%;
+    }
+
+    .subscribe .content-wrapper form {
+        padding: 0;
+    }
+
+    .gallery ul li {
+        width: 25%;
+    }
+
+    .social-media-icon {
+        text-align: center;
+        width: 92%;
+    }
+
+    .social-media-icon ul {
+        display: inline-block
+    }
+
+    .footer-left-wrapper, .footer-right-wrapper {
+        text-align: center;
+    }
+
+    .subscribe-form input:first-child {
+        width: auto;
+    }
+
+    .small-description > div:first-child > div {
+        max-height: 175px;
+    }
+
+    .small {
+        height: 300px;
+    }
+
+    .slider-div {
+        height: 636px;
+    }
+
+    .profile div {
+        display: block;
+        font-size: 10px;
+    }
+
+    .footer-content{
+        width: 100%;
+    }
+
+    .footer-form input, .footer-form textarea {
+        width: 82%;
+    }
+
+    .slider-arrow {
+        right: 20px;
+    }
+
+    .slider-arrow-left {
+        left: 20px;
+    }
+
+}
