@@ -127,7 +127,7 @@
 
 .header-main-menu > ul > li {
     margin-left: 14px;
-    padding-left: 14px;
+    padding: 0 14px;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
 }
