@@ -404,10 +404,6 @@
     height: 100%;
 }
 
-.three-content-body{
-    overflow: hidden;
-}
-
 .three-content-body > div{
     margin-left: -20px;
 }
